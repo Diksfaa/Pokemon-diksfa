@@ -1,37 +1,28 @@
 ## 📂 Project Structure
 
+```text
 src/
-├── app/  
-│ ├── battle/  
-│ │ └── \_components
-│ │ │ └── battle-card.tsx
-│ │ │ └── battle-pokemon.tsx
-│ │ └── page.tsx
-│ ├── dashboard/  
-│ │ └── \_components
-│ │ │ └── pokemon-hero.tsx
-│ │ │ └── pokemon-kpi.tsx
-│ │ │ └── pokemon-stats.tsx
-│ │ │ └── search-header.tsx
-│ │ └── dashboard.tsx
-│ └── explorer/  
-│ │ └── \_components
-│ │ │ └── pokemon-card-mini.tsx
-│ │ │ └── pokemon-explorer.tsx
-│ │ └── page.tsx
-│ ├── page.tsx
-│ ├── layout.tsx
+├── app/
+│   ├── battle/
+│   │   ├── _components/      # battle-card.tsx, battle-pokemon.tsx
+│   │   └── page.tsx
+│   ├── dashboard/
+│   │   ├── _components/      # pokemon-hero.tsx, pokemon-kpi.tsx, pokemon-stats.tsx
+│   │   └── page.tsx
+│   └── explorer/
+│       ├── _components/      # pokemon-card-mini.tsx, pokemon-explorer.tsx
+│       └── page.tsx
 ├── components/
-│ └── common/
-│ └── app-sidebar.tsx
-│ └── ui/ (shadcnUI)
-├── hooks/
-├── lib/
-├── providers/
-├── services/
-├── store/
-└── types/  
- └── pokemon.ts
+│   ├── common/               # app-sidebar.tsx
+│   └── ui/                   # shadcn/UI components
+├── hooks/                    # Custom React hooks
+├── lib/                      # Utility functions
+├── providers/                # Context providers
+├── services/                 # API service layer
+├── store/                    # Redux store
+└── types/                    # TypeScript interfaces
+    └── pokemon.ts
+
 
 ## 📂 Tech Stack
 
