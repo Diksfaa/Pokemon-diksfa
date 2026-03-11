@@ -47,4 +47,5 @@ src/
 
 Clone the repository using git clone [link_repository]
 Install dependencies = npm install
+create .env.local= {endpointAPIfromPOKEAPI}
 run the development = npm run dev
